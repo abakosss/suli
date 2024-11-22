@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/proba/proba/bin/Debug/net8.0/proba
+/Users/bakosbence/RiderProjects/proba/proba/bin/Debug/net8.0/proba.deps.json
+/Users/bakosbence/RiderProjects/proba/proba/bin/Debug/net8.0/proba.runtimeconfig.json
+/Users/bakosbence/RiderProjects/proba/proba/bin/Debug/net8.0/proba.dll
+/Users/bakosbence/RiderProjects/proba/proba/bin/Debug/net8.0/proba.pdb
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/proba.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/proba.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/proba.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/proba.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/proba.dll
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/refint/proba.dll
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/proba.pdb
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/proba.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/proba/proba/obj/Debug/net8.0/ref/proba.dll

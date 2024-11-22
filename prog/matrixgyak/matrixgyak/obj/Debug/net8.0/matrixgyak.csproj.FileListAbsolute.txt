@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/bin/Debug/net8.0/matrixgyak
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/bin/Debug/net8.0/matrixgyak.deps.json
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/bin/Debug/net8.0/matrixgyak.runtimeconfig.json
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/bin/Debug/net8.0/matrixgyak.dll
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/bin/Debug/net8.0/matrixgyak.pdb
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/matrixgyak.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/matrixgyak.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/matrixgyak.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/matrixgyak.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/matrixgyak.dll
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/refint/matrixgyak.dll
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/matrixgyak.pdb
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/matrixgyak.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/matrixgyak/matrixgyak/obj/Debug/net8.0/ref/matrixgyak.dll

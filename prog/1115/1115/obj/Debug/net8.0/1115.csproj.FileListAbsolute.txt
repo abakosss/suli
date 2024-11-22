@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/1115/1115/bin/Debug/net8.0/1115
+/Users/bakosbence/RiderProjects/1115/1115/bin/Debug/net8.0/1115.deps.json
+/Users/bakosbence/RiderProjects/1115/1115/bin/Debug/net8.0/1115.runtimeconfig.json
+/Users/bakosbence/RiderProjects/1115/1115/bin/Debug/net8.0/1115.dll
+/Users/bakosbence/RiderProjects/1115/1115/bin/Debug/net8.0/1115.pdb
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/1115.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/1115.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/1115.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/1115.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/1115.dll
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/refint/1115.dll
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/1115.pdb
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/1115.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/1115/1115/obj/Debug/net8.0/ref/1115.dll

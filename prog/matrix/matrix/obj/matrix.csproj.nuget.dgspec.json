@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bakosbence/Desktop/suli/prog/matrix/matrix/matrix.csproj": {}
+    "/Users/bakosbence/RiderProjects/matrix/matrix/matrix.csproj": {}
   },
   "projects": {
-    "/Users/bakosbence/Desktop/suli/prog/matrix/matrix/matrix.csproj": {
+    "/Users/bakosbence/RiderProjects/matrix/matrix/matrix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bakosbence/Desktop/suli/prog/matrix/matrix/matrix.csproj",
+        "projectUniqueName": "/Users/bakosbence/RiderProjects/matrix/matrix/matrix.csproj",
         "projectName": "matrix",
-        "projectPath": "/Users/bakosbence/Desktop/suli/prog/matrix/matrix/matrix.csproj",
+        "projectPath": "/Users/bakosbence/RiderProjects/matrix/matrix/matrix.csproj",
         "packagesPath": "/Users/bakosbence/.nuget/packages/",
-        "outputPath": "/Users/bakosbence/Desktop/suli/prog/matrix/matrix/obj/",
+        "outputPath": "/Users/bakosbence/RiderProjects/matrix/matrix/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bakosbence/.nuget/NuGet/NuGet.Config"

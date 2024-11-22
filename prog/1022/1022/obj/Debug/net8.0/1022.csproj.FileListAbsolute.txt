@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/1022/1022/bin/Debug/net8.0/1022
+/Users/bakosbence/RiderProjects/1022/1022/bin/Debug/net8.0/1022.deps.json
+/Users/bakosbence/RiderProjects/1022/1022/bin/Debug/net8.0/1022.runtimeconfig.json
+/Users/bakosbence/RiderProjects/1022/1022/bin/Debug/net8.0/1022.dll
+/Users/bakosbence/RiderProjects/1022/1022/bin/Debug/net8.0/1022.pdb
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/1022.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/1022.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/1022.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/1022.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/1022.dll
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/refint/1022.dll
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/1022.pdb
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/1022.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/1022/1022/obj/Debug/net8.0/ref/1022.dll

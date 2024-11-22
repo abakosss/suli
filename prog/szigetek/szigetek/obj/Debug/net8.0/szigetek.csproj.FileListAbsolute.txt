@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/szigetek/szigetek/bin/Debug/net8.0/szigetek
+/Users/bakosbence/RiderProjects/szigetek/szigetek/bin/Debug/net8.0/szigetek.deps.json
+/Users/bakosbence/RiderProjects/szigetek/szigetek/bin/Debug/net8.0/szigetek.runtimeconfig.json
+/Users/bakosbence/RiderProjects/szigetek/szigetek/bin/Debug/net8.0/szigetek.dll
+/Users/bakosbence/RiderProjects/szigetek/szigetek/bin/Debug/net8.0/szigetek.pdb
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/szigetek.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/szigetek.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/szigetek.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/szigetek.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/szigetek.dll
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/refint/szigetek.dll
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/szigetek.pdb
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/szigetek.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/szigetek/szigetek/obj/Debug/net8.0/ref/szigetek.dll

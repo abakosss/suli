@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/bin/Debug/net8.0/siposm02hazifeladat
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/bin/Debug/net8.0/siposm02hazifeladat.deps.json
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/bin/Debug/net8.0/siposm02hazifeladat.runtimeconfig.json
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/bin/Debug/net8.0/siposm02hazifeladat.dll
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/bin/Debug/net8.0/siposm02hazifeladat.pdb
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/siposm02hazifeladat.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/siposm02hazifeladat.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/siposm02hazifeladat.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/siposm02hazifeladat.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/siposm02hazifeladat.dll
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/refint/siposm02hazifeladat.dll
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/siposm02hazifeladat.pdb
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/siposm02hazifeladat.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/siposm02hazifeladat/siposm02hazifeladat/obj/Debug/net8.0/ref/siposm02hazifeladat.dll

@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/bin/Debug/net8.0/cserelgetos
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/bin/Debug/net8.0/cserelgetos.deps.json
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/bin/Debug/net8.0/cserelgetos.runtimeconfig.json
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/bin/Debug/net8.0/cserelgetos.dll
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/bin/Debug/net8.0/cserelgetos.pdb
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/cserelgetos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/cserelgetos.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/cserelgetos.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/cserelgetos.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/cserelgetos.dll
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/refint/cserelgetos.dll
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/cserelgetos.pdb
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/cserelgetos.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/cserelgetos/cserelgetos/obj/Debug/net8.0/ref/cserelgetos.dll

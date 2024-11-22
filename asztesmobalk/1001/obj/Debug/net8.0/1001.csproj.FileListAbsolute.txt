@@ -1,0 +1,14 @@
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/bin/Debug/net8.0/1001
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/bin/Debug/net8.0/1001.deps.json
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/bin/Debug/net8.0/1001.runtimeconfig.json
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/bin/Debug/net8.0/1001.dll
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/bin/Debug/net8.0/1001.pdb
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/1001.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/1001.AssemblyInfoInputs.cache
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/1001.AssemblyInfo.cs
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/1001.csproj.CoreCompileInputs.cache
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/1001.dll
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/refint/1001.dll
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/1001.pdb
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/1001.genruntimeconfig.cache
+/Users/bakosbence/Desktop/suli/asztesmobalk/1001/obj/Debug/net8.0/ref/1001.dll

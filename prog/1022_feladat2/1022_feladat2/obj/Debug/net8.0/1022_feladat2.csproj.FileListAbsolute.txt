@@ -1,0 +1,14 @@
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/bin/Debug/net8.0/1022_feladat2
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/bin/Debug/net8.0/1022_feladat2.deps.json
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/bin/Debug/net8.0/1022_feladat2.runtimeconfig.json
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/bin/Debug/net8.0/1022_feladat2.dll
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/bin/Debug/net8.0/1022_feladat2.pdb
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/1022_feladat2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/1022_feladat2.AssemblyInfoInputs.cache
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/1022_feladat2.AssemblyInfo.cs
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/1022_feladat2.csproj.CoreCompileInputs.cache
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/1022_feladat2.dll
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/refint/1022_feladat2.dll
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/1022_feladat2.pdb
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/1022_feladat2.genruntimeconfig.cache
+/Users/bakosbence/RiderProjects/1022_feladat2/1022_feladat2/obj/Debug/net8.0/ref/1022_feladat2.dll
