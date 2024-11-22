@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevásárlólista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .shopping-list {
+            margin-top: 20px;
+            padding: 0;
+            list-style: none;
+        }
+        .shopping-list li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .shopping-list li.completed::after {
+            content: url("kesz.png");
+            color: green;
+        }
+        .delete-button {
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-left: 10px;
+            padding: 5px;
+        }
+        .deleted-items {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Bevásárlólista</h1>
+
+<!-- Beviteli mező és gomb -->
+<input type="text" id="item-input" placeholder="Adj hozzá egy tételt">
+<button id="add-button">Hozzáad</button>
+
+<!-- Lista -->
+<ul id="shopping-list" class="shopping-list"></ul>
+
+<!-- Törölt elemek -->
+<div class="deleted-items">
+    <span>Törölt elemek: </span><span id="deleted-items"></span>
+</div>
+
+<script>
+    const input = document.getElementById('item-input');
+    const addButton = document.getElementById('add-button');
+    const shoppingList = document.getElementById('shopping-list');
+    const deletedItemsDiv = document.getElementById('deleted-items');
+    let deletedItems = [];
+
+    // Új elem hozzáadása a listához
+    addButton.addEventListener('click', () => {
+        const itemText = input.value.trim();
+        if (itemText !== '') {
+            const listItem = document.createElement('li');
+            listItem.textContent = itemText;
+
+            // Tétel hozzáadása a listához
+            listItem.addEventListener('click', () => {
+                listItem.classList.toggle('completed');
+            });
+
+            // Törlő gomb hozzáadása
+            const deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Törlés';
+            deleteButton.classList.add('delete-button');
+            deleteButton.addEventListener('click', () => {
+                shoppingList.removeChild(listItem);
+                deletedItems.push(itemText);
+                updateDeletedItems();
+            });
+
+            listItem.appendChild(deleteButton);
+            shoppingList.appendChild(listItem);
+
+            input.value = '';
+        }
+    });
+
+    // Törölt elemek frissítése
+    function updateDeletedItems() {
+        deletedItemsDiv.textContent = deletedItems.join(', ');
+    }
+</script>
+
+</body>
+</html>

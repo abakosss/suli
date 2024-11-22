@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vonat</title>
+    <script>
+        function Vonat() {
+            const honnanvaros = document.getElementById("honnan").value;
+            const hovavaros = document.getElementById("hova").value;
+            if (honnanvaros !== "valasszhonnan" && hovavaros !== "valasszhova") {
+                const url = `https://cors-anywhere.herokuapp.com/https://apiv2.oroszi.net/elvira?from=${honnanvaros}&to=${hovavaros}`;
+
+                document.getElementById("indulasiido").innerHTML += "";
+                document.getElementById("erkezesiido").innerHTML += "";
+                document.getElementById("indulasiido").style = "display: none;";
+                document.getElementById("erkezesiido").style = "display: none;";
+
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        for (let index = 0; index < data.timetable.length; index++) {
+                            document.getElementById("indulasiido").innerHTML += "<option>" + index + ". indulási idő:" + data.timetable[index].starttime + "</option>";
+                            document.getElementById("erkezesiido").innerHTML += "<option>" + index + ". érkezési idő:" + data.timetable[index].destinationtime + "</option>";
+                            document.getElementById("indulasiido").style = "display: show;";
+                            document.getElementById("erkezesiido").style = "display: show;";
+                        }
+                    })
+                    .catch(error => console.error('Hiba történt:', error));
+            }
+            else if(honnanvaros == hovavaros || hovavaros == honnanvaros){
+                alert("Nem lehet ugyan az a két város!");
+            }
+            else if (honnanvaros == "valasszhonnan" || hovavaros == "valasszhova") {
+                document.getElementById("indulasiido").innerHTML += "";
+                document.getElementById("erkezesiido").innerHTML += "";
+                document.getElementById("indulasiido").style = "display: none;";
+                document.getElementById("erkezesiido").style = "display: none;";
+            }
+        }
+    </script>
+</head>
+
+<body style="display: flex; justify-content: center; align-content: center;">
+    <div id="hatter"
+        style="background-image: linear-gradient(orange, blue); width: 500px; height: 500px; color: white; display: flex; flex-direction: column; align-items: center;">
+        <p>Honnan:
+            <select id="honnan" onchange="Vonat()">
+                <option value="valasszhonnan">Válassz!</option>
+                <option value="budapest">Budapest</option>
+                <option value="szeged">Szeged</option>
+                <option value="pecs">Pécs</option>
+                <option value="szekesfehervar">Székesfehérvár</option>
+                <option value="miskolc">Miskolc</option>
+            </select>
+            Hova:
+            <select id="hova" onchange="Vonat()">
+                <option value="valasszhova">Válassz!</option>
+                <option value="budapest">Budapest</option>
+                <option value="szeged">Szeged</option>
+                <option value="pecs">Pécs</option>
+                <option value="szekesfehervar">Székesfehérvár</option>
+                <option value="miskolc">Miskolc</option>
+            </select>
+        </p>
+        <p>
+            Indulási idő: <select id="indulasiido" style="display: none;"></select>
+        </p>
+        <p>
+            Érkezési idő: <select id="erkezesiido" style="display: none;"></select>
+        </p>
+
+        <div id="csuszka" style="padding: 10px; margin-top: 70px; width: 400px; height: 20px; background-color: grey;">
+            <div id="circle" style="background-color: white; width: 20px; height: 20px; border-radius: 20px;">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

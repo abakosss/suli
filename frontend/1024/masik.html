@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+
+    </div>
+    <button type="button" onclick="loadXMLDoc ()">Random kutya betöltése</button> <img src="" id="random_kutya">
+    <img src="" id="random_kutya">
+    <img src="" id="random_kutya2">
+    <img src="" id="random_kutya3">
+</body>
+
+<script>
+var i =0;
+function loadXMLDoc () {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            const obj = JSON.parse(this.responseText);
+            document.getElementById("demo").innerHTML+='<br>';
+            for (var i in obj.message) {
+                if (obj.message[i]>0) {
+                    document.getElementById("demo").innerHTML+="Fajta: " +i;
+                    document.getElementById("demo").innerHTML+=obj.message[i].join(" , ");
+                }
+                else{
+                    document.getElementById("demo").innerHTML+="Fajta: " +i;
+                }
+            }
+            }
+        }
+    }
+    xhttp.open("GET", "https://dog.ceo/api/breeds/image/random", true);
+    xhttp.send();
+}
+
+</script>
+</html>

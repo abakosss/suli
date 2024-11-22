@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamikus táblázat</title>
+    <style>
+        .kiemel {
+            background-color: yellow;
+        }
+    </style>
+    <script>
+
+        let tomb = [];
+
+
+        
+        function tabla_general() {
+
+            
+
+            //alert("ok");
+            const table = document.createElement('table');
+            table.border = 1;
+            const randomNumbers = [];
+
+            for (let index = 0; index < 5; index++) {
+                const row = [];
+                for (let j = 0; j < 5; j++) {
+                    const randomValue = Math.random();
+                    if (randomValue < 0.3) {
+                        row.push(1);
+                    }
+                    else {
+                        row.push(0);
+                    }
+                    randomNumbers.push(row);
+                }
+            }
+
+            for (let index = 0; index < 5; index++) {
+                const row = document.createElement('tr');
+                for (let j = 0; j < 5; j++) {
+                    const cell = document.createElement('td');
+                    cell.textContent = `*`;
+
+                    cell.onclick = function () {
+                        this.textContent = randomNumbers[index][j];
+                    }
+                    row.appendChild(cell);
+                }
+                table.appendChild(row);
+            }
+
+            const container = document.getElementById('tablazat');
+            container.innerHTML = '';
+            container.appendChild(table)
+
+            const arrayOutput = document.getElementById('arrayOutput');
+            arrayOutput.innerHTML= '';
+            for (let index = 0; index < 5; index++) {
+                arrayOutput.innerHTML += randomNumbers[index].join(' ') + '<br>';
+                
+            }
+
+            const tabl = document.getElementById('tablazat')
+            tabl.innerHTML = '';
+            tabl.appendChild(table);
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="Tábla generálása" id="general" onclick="tabla_general()">
+    <div id="tablazat">
+
+    </div>
+    <div id="arrayOutput">
+
+    </div>
+</body>
+
+</html>

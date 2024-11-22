@@ -1,0 +1,14 @@
+/Users/bakosbence/Desktop/suli/prog/0927/bin/Debug/net8.0/0927
+/Users/bakosbence/Desktop/suli/prog/0927/bin/Debug/net8.0/0927.deps.json
+/Users/bakosbence/Desktop/suli/prog/0927/bin/Debug/net8.0/0927.runtimeconfig.json
+/Users/bakosbence/Desktop/suli/prog/0927/bin/Debug/net8.0/0927.dll
+/Users/bakosbence/Desktop/suli/prog/0927/bin/Debug/net8.0/0927.pdb
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/0927.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/0927.AssemblyInfoInputs.cache
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/0927.AssemblyInfo.cs
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/0927.csproj.CoreCompileInputs.cache
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/0927.dll
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/refint/0927.dll
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/0927.pdb
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/0927.genruntimeconfig.cache
+/Users/bakosbence/Desktop/suli/prog/0927/obj/Debug/net8.0/ref/0927.dll

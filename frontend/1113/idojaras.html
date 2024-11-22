@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Időjárás</title>
+    <script>
+        const apiKey = 'cb9d90cacab0b7302686aab85a55f78b';
+        function IdojarasBetoltes() {
+            const city = document.getElementById("varosKivalasztas").value;
+            if (city !== "valasszvarost") {
+                const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=hu&appid=${apiKey}`;
+
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('hofok').innerText = Math.round(data.main.temp);
+                        document.getElementById('nyomas').innerText = data.main.pressure;
+                        document.getElementById('para').innerText = data.main.humidity;
+                        document.getElementById('legkor').innerText = data.weather[0].description;
+                        document.getElementById("legkorIcon").src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+                        document.getElementById("szelirany").style = "display: show; width: 30px; height: 30px;";
+                        document.getElementById('szelirany').style.transform = `rotate(${data.wind.deg}deg)`;
+                        document.getElementById('szelsebesseg').innerText = data.wind.speed;
+                        document.getElementById('napkelte').innerText = new Date(data.sys.sunrise * 1000).toLocaleTimeString();
+                        document.getElementById('napnyugta').innerText = new Date(data.sys.sunset * 1000).toLocaleTimeString();
+                    })
+                    .catch(error => console.error('Hiba történt:', error));
+            }
+            else if (city == "valasszvarost") {
+                document.getElementById('hofok').innerText = ""
+                document.getElementById('nyomas').innerText = ""
+                document.getElementById('para').innerText = ""
+                document.getElementById('legkor').innerText = ""
+                document.getElementById("legkorIcon").src = ``;
+                document.getElementById("szelirany").style = "display: none;";
+                document.getElementById('szelsebesseg').innerText = "";
+                document.getElementById('napkelte').innerText = "";
+                document.getElementById('napnyugta').innerText = "";
+            }
+        }
+    </script>
+</head>
+
+<body style="display: flex; justify-content: center; align-content: center;">
+    <div id="hatter" style="background-color: rgb(0, 183, 255); width: 500px; height: 500px; color: white;">
+        <p>
+            Város:
+            <select id="varosKivalasztas" onchange="IdojarasBetoltes()">
+                <option value="valasszvarost">Válassz várost!</option>
+                <option value="szigethalom">Szigethalom</option>
+                <option value="taksony">Taksony</option>
+                <option value="dunaharaszti">Dunaharaszti</option>
+                <option value="erd">Érd</option>
+                <option value="budapest">Budapest</option>
+                <option value="hurghada">Hurghada</option>
+            </select>
+        </p>
+        <p>Hőfok: <span id="hofok"></span> °C</p>
+        <p>Nyomás: <span id="nyomas"></span> mb</p>
+        <p>Pára: <span id="para"></span> %</p>
+        <p>Légkör: <span id="legkor"></span> <img src="" id="legkorIcon"><img /></p>
+        <p>Szélirány: <span><img id="szelirany" src="csokken.fw.png" style="display: none;"></span></p>
+        <p>Szélsebesség: <span id="szelsebesseg"></span> km/h</p>
+        <p>Napkelte: <span id="napkelte"></span></p>
+        <p>Napnyugta: <span id="napnyugta"></span></p>
+    </div>
+</body>
+
+</html>

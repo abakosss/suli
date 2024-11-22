@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamikus táblázat</title>
+    <style>
+        .kiemel {
+            background-color: yellow;
+        }
+    </style>
+    <script>
+
+        let tomb = [];
+
+        function tabla_general() {
+            //alert("ok");
+            const table = document.createElement('table');
+            table.border = 1;
+
+            for (let index = 0; index < 10; index++) {
+                const row = document.createElement('tr');
+                for (let j = 0; j < 3; j++) {
+                    const cell = document.createElement('td');
+                    cell.textContent = `Cella $(i+1) - $(j+1)`;
+                    row.appendChild(cell);
+
+                    cell.onclick = function () {
+                        document.getElementById('tartalom').value = this.textContent;
+                        tomb.push(this.textContent);
+                        document.getElementById('tomb_ide').innerHTML = `${tomb.join(',')}`;
+                    }
+                }
+                row.onmouseover = function () {
+                    this.classList.add('kiemel')
+                }
+
+                row.onmouseout = function () {
+                    this.classList.remove('kiemel')
+                }
+                table.appendChild(row);
+            }
+            const tabl = document.getElementById('tablazat')
+            tabl.innerHTML = '';
+            tabl.appendChild(table);
+        }
+
+        //random 30 db szam 1 es 300 kozott
+        //diveket generalunk 20px magassag szelesseg = random
+
+        function diagram_general() {
+            //alert("ok");
+
+            for (let index = 0; index < 30; index++) {
+                const div = document.createElement('div');
+                let rszam = Math.floor(Math.random() * (300 - 1) + 1);
+                div.style.margin = 10 + 'px';
+                div.style.height = 30 + 'px'
+                div.style.width = rszam * 500 / 300 + 'px';
+                div.innerHTML = rszam;
+                div.style.backgroundColor = 'yellow';
+                div.style.color = 'red';
+                document.body.appendChild(div);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="Tábla generálása" id="general" onclick="tabla_general()">
+    <div id="tablazat">
+
+    </div>
+    <input type="text" id="tartalom" placeholder="Kattints egy cellába a tartalomért">
+    <p id="tomb_ide"></p>
+
+    <input type="button" value="Diagram generálása" id="diagram_general" onclick="diagram_general()">
+</body>
+
+</html>

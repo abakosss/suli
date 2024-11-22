@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(document.getElementById("nyitogomb")).click(function(){
+            $(document.getElementById("div1")).fadeIn(1000);
+        });
+        });
+        $(document).ready(function(){
+        $(document.getElementById("nyitogombdiv1")).click(function(){
+            $(document.getElementById("div2")).slideDown(1000);
+        });
+        });
+        $(document).ready(function(){
+        $(document.getElementById("nyitogombdiv2")).click(function(){
+            $(document.getElementById("div3")).css("color", "red")
+            .slideUp(2000)
+            .slideDown(2000);
+        });
+        });
+        $(document).ready(function(){
+        $(document.getElementById("div1bezar")).click(function(){
+            $(document.getElementById("div1")).hide();
+        });
+        });
+        $(document).ready(function(){
+        $(document.getElementById("div2bezar")).click(function(){
+            $(document.getElementById("div2")).hide();
+        });
+        });
+        $(document).ready(function(){
+        $(document.getElementById("div3bezar")).click(function(){
+            $(document.getElementById("div3")).hide();
+        });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <button id="nyitogomb">Nyit</button>
+    <div style="display: flex;" onclick="div1animacio()">
+        <div id="div1" style="height: 300px; width: 300px; background-color: red; margin: 10px; display: none;">
+            <p>300x300</p>
+            <button id="nyitogombdiv1" style="margin-left: 250px;">Nyit</button>
+            <p id="div1bezar" style="margin-left: 270px; margin-top: 200px;">[X]</p>
+        </div>
+        <div id="div2"  style="height: 600px; width: 350px; background-color: green; margin: 10px; display: none;">
+            <p>350x600</p>
+            <button id="nyitogombdiv2" style="margin-left: 300px;">Nyit</button>
+            <p id="div2bezar" style="margin-left: 300px; margin-top: 500px;">[X]</p>
+        </div>
+        <div id="div3" style="height: 400px; width: 150px; background-color: blue;  margin: 10px; display: none;">
+            <p>150x400</p>
+            <p id="div3bezar" style="margin-left: 114px; margin-top: 345px;">[X]</p>
+        </div>
+    </div>
+</body>
+</html>

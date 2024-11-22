@@ -1,0 +1,14 @@
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/bin/Debug/net8.0/tetek_beadando
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/bin/Debug/net8.0/tetek_beadando.deps.json
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/bin/Debug/net8.0/tetek_beadando.runtimeconfig.json
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/bin/Debug/net8.0/tetek_beadando.dll
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/bin/Debug/net8.0/tetek_beadando.pdb
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/tetek_beadando.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/tetek_beadando.AssemblyInfoInputs.cache
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/tetek_beadando.AssemblyInfo.cs
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/tetek_beadando.csproj.CoreCompileInputs.cache
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/tetek_beadando.dll
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/refint/tetek_beadando.dll
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/tetek_beadando.pdb
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/tetek_beadando.genruntimeconfig.cache
+/Users/bakosbence/Desktop/suli/prog/tetek_beadando/obj/Debug/net8.0/ref/tetek_beadando.dll

@@ -1,0 +1,14 @@
+/Users/bakosbence/Desktop/suli/frontend/0917/bin/Debug/net8.0/0917
+/Users/bakosbence/Desktop/suli/frontend/0917/bin/Debug/net8.0/0917.deps.json
+/Users/bakosbence/Desktop/suli/frontend/0917/bin/Debug/net8.0/0917.runtimeconfig.json
+/Users/bakosbence/Desktop/suli/frontend/0917/bin/Debug/net8.0/0917.dll
+/Users/bakosbence/Desktop/suli/frontend/0917/bin/Debug/net8.0/0917.pdb
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/0917.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/0917.AssemblyInfoInputs.cache
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/0917.AssemblyInfo.cs
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/0917.csproj.CoreCompileInputs.cache
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/0917.dll
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/refint/0917.dll
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/0917.pdb
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/0917.genruntimeconfig.cache
+/Users/bakosbence/Desktop/suli/frontend/0917/obj/Debug/net8.0/ref/0917.dll

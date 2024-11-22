@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digitális Névjegykártya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            background-color: #f3f3f3;
+        }
+
+        #card-container {
+            width: 300px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9e1e1;
+            display: none;
+        }
+
+        #card-container img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        #card-container h2 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .location,
+        .contact,
+        .address,
+        .weather {
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        .weather {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="card-container">
+        <img id="user-photo" src="" alt="Felhasználói Fotó" />
+        <h2 id="user-name">Név</h2>
+        <div class="location" id="user-location">Hely</div>
+        <div class="contact" id="user-contact">Elérhetőség</div>
+        <div class="address" id="user-address">Cím</div>
+        <div class="weather">
+            <div>Aktuális hőfok: <span id="current-temp">--</span> °C</div>
+            <div>Égbolt: <span id="weather-condition">--</span></div>
+            <div>Maximális hőmérséklet: <span id="max-temp">--</span> °C</div>
+            <div>Minimális hőmérséklet: <span id="min-temp">--</span> °C</div>
+        </div>
+    </div>
+
+    <button onclick="generateCard()">Kártya generálása</button>
+
+    <script>
+        function generateCard() {
+            // A kártya megjelenítése
+            document.getElementById("card-container").style.display = "block";
+
+            // Véletlen felhasználói adatok lekérése
+            fetch("https://randomuser.me/api/")
+                .then((response) => response.json())
+                .then((data) => {
+                    const user = data.results[0];
+                    document.getElementById("user-photo").src = user.picture.medium;
+                    document.getElementById(
+                        "user-name"
+                    ).textContent = `${user.name.first} ${user.name.last}`;
+                    document.getElementById(
+                        "user-location"
+                    ).textContent = `Ország: ${user.location.country}`;
+                    document.getElementById(
+                        "user-contact"
+                    ).textContent = `Email: ${user.email} | Telefon: ${user.phone}`;
+                    document.getElementById(
+                        "user-address"
+                    ).textContent = `Cím: ${user.location.street.name} ${user.location.street.number}, ${user.location.city}, ${user.location.state}, ${user.location.country}`;
+                })
+                .catch((error) =>
+                    console.error("Hiba a felhasználói adatok lekérésekor:", error)
+                );
+
+            // Időjárási adatok lekérése (Budapest)
+            // Időjárási adatok lekérése (Budapest)
+            fetch("https://api.infojegyzet.hu/idojaras/")
+                .then((response) => response.json())
+                .then((weatherData) => {
+                    console.log(weatherData); // A teljes JSON válasz kiíratása a konzolra
+
+                    // Ezután próbáljuk meg elérni az adatokat a pontos struktúra alapján
+                    document.getElementById("current-temp").textContent =
+                        weatherData.current?.temperature || "--";
+                    document.getElementById("weather-condition").textContent =
+                        weatherData.current?.weather || "--";
+                    document.getElementById("max-temp").textContent =
+                        weatherData.daily[0]?.max_temperature || "--";
+                    document.getElementById("min-temp").textContent =
+                        weatherData.daily[0]?.min_temperature || "--";
+                })
+                .catch((error) =>
+                    console.error("Hiba az időjárási adatok lekérésekor:", error)
+                );
+        }
+    </script>
+</body>
+
+</html>
