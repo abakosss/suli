@@ -1,0 +1,15 @@
+/Users/bakosbence/Desktop/suli/prog/sejtek/bin/Debug/net8.0/sejtek
+/Users/bakosbence/Desktop/suli/prog/sejtek/bin/Debug/net8.0/sejtek.deps.json
+/Users/bakosbence/Desktop/suli/prog/sejtek/bin/Debug/net8.0/sejtek.runtimeconfig.json
+/Users/bakosbence/Desktop/suli/prog/sejtek/bin/Debug/net8.0/sejtek.dll
+/Users/bakosbence/Desktop/suli/prog/sejtek/bin/Debug/net8.0/sejtek.pdb
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.AssemblyInfoInputs.cache
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.AssemblyInfo.cs
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.csproj.CoreCompileInputs.cache
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.sourcelink.json
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.dll
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/refint/sejtek.dll
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.pdb
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/sejtek.genruntimeconfig.cache
+/Users/bakosbence/Desktop/suli/prog/sejtek/obj/Debug/net8.0/ref/sejtek.dll
