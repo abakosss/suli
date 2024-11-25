@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jegyrendelés</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="w3-container">
+    <div class="col-sm-8 col-sm-offset-2">
+        <h2>Jegyrendelés</h2>
+        <form name="jegy" method="GET" action="jegyszamol.php">
+            Távolság: <input type="text" name="tavolsag" class="form-control" required>
+            <br>Jegy típusa:
+            <select name="tipus" class="form-control">
+                <option value="1.5">1. osztály</option>
+                <option value="1">2. osztály</option>
+            </select>
+            <br>Kedvezmény:
+            <br><input type="radio" name="kedvezmeny" value="0.5">50%
+            <br><input type="radio" name="kedvezmeny" value="0.3">70%
+            <br><input type="radio" name="kedvezmeny" value="1" checked>Nincs kedvezmény!
+            <br><input type="submit" name="kuld" value="Lássuk!" class="btn btn-warning">
+        </form>
+    </div>
+</div>
+</body>
+</html>

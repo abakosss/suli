@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sejtek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4af6f5da661bc9114704da4db84fc00c40a634d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91e93c451f2f8938a1b4c276fd8ef5c9de736b4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("sejtek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sejtek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
